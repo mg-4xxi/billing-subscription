@@ -1,6 +1,10 @@
 {
-  "name": "mg-4xxi/billing-subscription",
-  "repositories": [
-    { "type": "vcs", "url": "git://github.com/mg-4xxi/billing-subscription" }
-  ]
+    "name": "caesar/billing-subscription",
+    "authors": [
+        {
+            "name": "Gribanovskiy Mikhail",
+            "email": "mg@4xxi.com"
+        }
+    ],
+    "require": {}
 }
