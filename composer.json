@@ -1,0 +1,24 @@
+{
+  "repositories": [
+    {
+      "type": "package",
+      "package": {
+        "name": "caesarteam/subscription-repository",
+        "version": "dev-master",
+        "source": {
+          "url": "git://github.com/caesar-team/subscription-repository.git",
+          "type": "git",
+          "reference": "master"
+        },
+        "require": {
+          "symfony/doctrine-bridge": "~1.0"
+        },
+        "autoload": {
+          "psr-4": {
+            "App\\": "src/"
+          }
+        }
+      }
+    }
+  ]
+}
