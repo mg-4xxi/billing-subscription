@@ -6,5 +6,10 @@
             "email": "mg@4xxi.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src/"
+        }
+    },
     "require": {}
 }
