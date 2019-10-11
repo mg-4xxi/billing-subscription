@@ -18,13 +18,13 @@ class UserSubscription
 
     /**
      * @var User
-     * @ORM\ManyToOne(targetEntity="User", inversedBy="userSubscriptions", cascade={"remove", "persist"})
+     * @ORM\ManyToOne(targetEntity="\App\Entity\User", inversedBy="userSubscriptions", cascade={"remove", "persist"})
      */
     private $user;
 
     /**
      * @var Subscription
-     * @ORM\ManyToOne(targetEntity="Subscription", inversedBy="userSubscriptions", cascade={"remove", "persist"})
+     * @ORM\ManyToOne(targetEntity="\App\Entity\Subscription", inversedBy="userSubscriptions", cascade={"remove", "persist"})
      */
     private $subscription;
 
