@@ -3,10 +3,10 @@
     {
       "type": "package",
       "package": {
-        "name": "caesarteam/subscription-repository",
+        "name": "caesarteam/subscription",
         "version": "dev-master",
         "source": {
-          "url": "git://github.com/caesar-team/subscription-repository.git",
+          "url": "git://github.com/caesar-team/subscription.git",
           "type": "git",
           "reference": "master"
         },
