@@ -1,5 +1,6 @@
 {
     "name": "caesar/billing-subscription",
+    "license": "MIT",
     "authors": [
         {
             "name": "Gribanovskiy Mikhail",
