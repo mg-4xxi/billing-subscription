@@ -1,5 +1,5 @@
 {
-  "name": "Caesar Team Billing Subscription Object",
+  "name": "mg-4xxi/billing-subscription",
   "repositories": [
     { "type": "vcs", "url": "git://github.com/mg-4xxi/billing-subscription" }
   ]
