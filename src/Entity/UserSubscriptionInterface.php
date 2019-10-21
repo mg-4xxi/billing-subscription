@@ -24,19 +24,19 @@ interface UserSubscriptionInterface
 
     public function setStatus(?string $status): void;
 
-    public function getItemsLimit(): string;
+    public function getItemsLimit(): ?string;
 
-    public function setItemsLimit(string $itemsLimit): void;
+    public function setItemsLimit(?string $itemsLimit): void;
 
-    public function getTeamsLimit(): string;
+    public function getTeamsLimit(): ?string;
 
-    public function setTeamsLimit(string $teamsLimit): void;
+    public function setTeamsLimit(?string $teamsLimit): void;
 
-    public function getMemoryLimit(): string;
+    public function getMemoryLimit(): ?string;
 
-    public function setMemoryLimit(string $memoryLimit): void;
+    public function setMemoryLimit(?string $memoryLimit): void;
 
-    public function setSubscriptionName(string $subscriptionName): void;
+    public function setSubscriptionName(?string $subscriptionName): void;
 
-    public function getSubscriptionName(): string;
+    public function getSubscriptionName(): ?string;
 }
