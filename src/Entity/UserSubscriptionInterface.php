@@ -36,6 +36,10 @@ interface UserSubscriptionInterface
 
     public function setMemoryLimit(?string $memoryLimit): void;
 
+    public function getUsersLimit(): ?string;
+
+    public function setUsersLimit(?string $usersLimit): void;
+
     public function setSubscriptionName(?string $subscriptionName): void;
 
     public function getSubscriptionName(): ?string;
