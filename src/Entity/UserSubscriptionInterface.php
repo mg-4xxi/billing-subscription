@@ -39,8 +39,4 @@ interface UserSubscriptionInterface
     public function setSubscriptionName(?string $subscriptionName): void;
 
     public function getSubscriptionName(): ?string;
-
-    public function getSubscribedAt(): ?string;
-
-    public function setSubscribedAt(?string $subscribedAt): void;
 }
