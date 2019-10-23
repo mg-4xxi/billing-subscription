@@ -8,10 +8,6 @@ interface UserSubscriptionInterface
 {
     public function getId(): ?int;
 
-    public function getUser();
-
-    public function setUser($user): void;
-
     public function getExternalSubscriptionId(): ?string;
 
     public function setExternalSubscriptionId(?string $externalSubscriptionId): void;
@@ -43,4 +39,8 @@ interface UserSubscriptionInterface
     public function setSubscriptionName(?string $subscriptionName): void;
 
     public function getSubscriptionName(): ?string;
+
+    public function getSubscribedAt(): ?string;
+
+    public function setSubscribedAt(?string $subscribedAt): void;
 }
