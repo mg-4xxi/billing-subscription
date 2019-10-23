@@ -28,9 +28,9 @@ interface UserSubscriptionInterface
 
     public function setTeamsLimit(?string $teamsLimit): void;
 
-    public function getMemoryLimit(): ?string;
+    public function getStorageLimit(): ?string;
 
-    public function setMemoryLimit(?string $memoryLimit): void;
+    public function setStorageLimit(?string $storageLimit): void;
 
     public function getUsersLimit(): ?string;
 
